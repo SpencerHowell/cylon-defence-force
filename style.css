@@ -5,7 +5,7 @@ body {
 
 div.main {
     line-height: 1.5;
-    padding: 4em 1em;
+    padding: 4em 1em 1em 1em;
     max-width: 50em;
     margin: auto;
 }
@@ -49,13 +49,17 @@ a {
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    font-size: 18px;
+/*    font-size: 18px; */
     line-height: 25px; /*TODO is this okay? With px instead of em*/
 }
 
 .header a.logo {
-    font-size: 18px;
+   /* font-size: 18px; */
     font-weight: bold;
+}
+
+.header img.logo {
+    padding-top: 0.2em;
 }
 
 .header a:hover {
@@ -88,7 +92,11 @@ li.header-right {
      }
      .header a.logo {
          text-align: center;
+         width: 100%;
      }
+     .header img.logo {
+         display: none;
+     } 
  }
 
  .header img {
@@ -110,7 +118,7 @@ li.header-right {
      display: block;
      margin-left: auto;
      margin-right: auto;
-     padding: 4em 0em;
+     padding: 2em 0em;
  }
 
  .footer a {
