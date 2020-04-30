@@ -113,6 +113,10 @@ li.header-right {
      .header img.logo {
          display: none;
      } 
+
+     .main img {
+         max-width: 100%;
+     }
  }
 
  .header img {
